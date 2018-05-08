@@ -1,0 +1,24 @@
+#running{
+  .box-card{
+    .content{
+      .btn-box{
+        min-width: 200px;
+        height: 80px;
+        .el-button{
+          float: left;
+          margin: 20px;
+        }
+      }
+      .tabel-box{
+        .box-card{
+          .el-table{
+            th{
+              text-align: center;
+              background-color:#F1F3F6; 
+            } 
+          }
+        }
+      }
+    }
+  }
+}

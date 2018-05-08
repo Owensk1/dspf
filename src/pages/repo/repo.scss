@@ -1,0 +1,55 @@
+#repo{
+  .btn-box{
+    width: 100%;
+    height: 80px;
+    .el-button {
+      float: left;
+      margin: 20px;
+    }
+  }
+  .content-box{
+    .content{
+      .box-card{
+        .item{
+          .repos{
+            margin: 10px;
+            .repo_box{
+              .image{
+                width: 100%;
+                display: block;
+              }
+              // .el-tooltip{
+                .repo-name{
+                  width:80%;
+                  overflow: hidden;
+                  text-overflow:ellipsis;
+                  white-space: nowrap;
+                }
+              // }
+              .bottom{
+                margin-top: 13px;
+                line-height: 12px;
+                .button{
+                  padding: 0;
+                  float: right;
+                  position: relative;
+                  bottom: 6px;
+                  right: 6px;
+                }
+              }
+              .clearfix:before,
+              .clearfix:after {
+                  display: table;
+                  content: "";
+              }
+              
+              .clearfix:after {
+                  clear: both
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
